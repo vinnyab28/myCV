@@ -1,0 +1,15 @@
+<div class="main-div">
+<mat-card fxLayout="column" fxLayoutAlign="center center">
+  <mat-card-header>
+    <mat-card-title>G. Vineeth Prakash</mat-card-title>
+    <mat-card-subtitle>Associate Engineer</mat-card-subtitle>
+    <span class="fill-space"></span>
+    <button mat-icon-button aria-label="Theme" (click)="toggleDarkTheme()"><mat-icon>{{ (isDarkTheme | async) ? 'wb_sunny' : 'brightness_3'}}</mat-icon></button>
+    <button mat-icon-button aria-label="Home Button" [routerLink]="['/']"><mat-icon>home</mat-icon></button>
+  </mat-card-header>
+  <mat-divider></mat-divider>
+  <mat-card-content>
+    <router-outlet></router-outlet>
+  </mat-card-content>
+</mat-card>
+</div>

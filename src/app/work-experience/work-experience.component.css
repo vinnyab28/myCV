@@ -1,0 +1,29 @@
+.toggle-button {
+  padding: 10px 0;
+}
+
+.accordion-headers-align .mat-expansion-panel-header-title,
+.accordion-headers-align .mat-expansion-panel-header-description {
+  flex-basis: 0;
+}
+
+.accordion-headers-align .mat-expansion-panel-header-title {
+  font-weight: bold;
+}
+
+.accordion-headers-align .mat-expansion-panel-header-description {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-headers-align .mat-form-field + .mat-form-field {
+  margin-left: 8px;
+}
+
+mat-list-item  .mat-line {
+  font-size: 14px;
+}
+
+mat-list-item .mat-line mat-icon {
+  font-size: 14px;
+}
