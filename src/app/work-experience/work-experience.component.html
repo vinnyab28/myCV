@@ -1,0 +1,23 @@
+<div class="toggle-button">
+  <button mat-flat-button (click)="toggleAccordion()" color="warn">{{ !expanded ? 'Open' : 'Close'}} All</button>
+</div>
+<mat-accordion class="accordion-headers-align" multi>
+  <mat-expansion-panel [expanded]="expanded">
+    <mat-expansion-panel-header>
+      <mat-panel-title>Tata Elxsi</mat-panel-title>
+      <mat-panel-description>2018 - Present<mat-icon>work</mat-icon></mat-panel-description>
+    </mat-expansion-panel-header>
+    <mat-list>
+      <div mat-subheader>Associate Engineer</div>
+     <mat-list-item>
+       <div mat-line><mat-icon>done_outline</mat-icon> Full Stack Web Developer</div>
+       <div mat-line><mat-icon>done_outline</mat-icon> Experienced in all project phases using Waterfall and Agile Methodologies</div>
+       <div mat-line><mat-icon>done_outline</mat-icon> Designed UI/UX for three Web Portals Applications using the below technologies</div>
+       <div mat-line><mat-icon>done_outline</mat-icon> Worked on the front-end using HTML, CSS, JS, Angular, JQuery, Bootstrap,  and Material Design</div>
+       <div mat-line><mat-icon>done_outline</mat-icon> Worked on the back-end using Node.js, Express, PHP, and MySQL</div>
+       <div mat-line><mat-icon>done_outline</mat-icon> Hands-on experience in PHP framework such as Zend Framework 3 (ZF3)</div>
+       <div mat-line><mat-icon>done_outline</mat-icon> Deployed the product using AWS Services</div>
+     </mat-list-item>
+    </mat-list>
+  </mat-expansion-panel>
+</mat-accordion>
