@@ -10,13 +10,23 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ContentBoxComponent } from './content-box/content-box.component';
 import { MainComponent } from './main/main.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
+import { PersonalProjectsComponent } from './personal-projects/personal-projects.component';
+import { EducationComponent } from './education/education.component';
+import { SkillsComponent } from './skills/skills.component';
+import { InterestsComponent } from './interests/interests.component';
+import { AboutMeComponent } from './about-me/about-me.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContentBoxComponent,
     MainComponent,
-    WorkExperienceComponent
+    WorkExperienceComponent,
+    PersonalProjectsComponent,
+    EducationComponent,
+    SkillsComponent,
+    InterestsComponent,
+    AboutMeComponent
   ],
   imports: [
     BrowserModule,
