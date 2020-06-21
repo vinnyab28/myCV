@@ -7,8 +7,23 @@
 
 .main-div .mat-card {
   position: relative;
-  width: 50%;
+  width: 60%;
   border: 4px solid rgb(255,255,0);
   border-radius: 0;
-  padding: auto 0;
+}
+
+.menu-button {
+  position: fixed;
+  left: 15px;
+  top: 50%;
+  transition-property: all;
+}
+
+.menu-button:hover {
+  transform: rotate(180deg) scale(1.2);
+  font-weight: bold;
+}
+
+.nav-content {
+  margin: 10px auto;
 }

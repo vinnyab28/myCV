@@ -1,0 +1,13 @@
+<mat-accordion class="accordion-headers-align" multi>
+  <mat-expansion-panel *ngFor="let project of projects">
+    <mat-expansion-panel-header>
+      <mat-panel-title><strong>{{project.projectName}}</strong></mat-panel-title>
+    </mat-expansion-panel-header>
+    <mat-list>
+      <div mat-subheader>{{project.startDate | date: "MM/yy"}} - {{project.endDate | date: "MM/yy"}}</div>
+     <mat-list-item>
+       <p>{{project.description}}</p>
+     </mat-list-item>
+    </mat-list>
+  </mat-expansion-panel>
+</mat-accordion>

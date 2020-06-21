@@ -1,14 +1,6 @@
-.toggle-button {
-  padding: 10px 0;
-}
-
 .accordion-headers-align .mat-expansion-panel-header-title,
 .accordion-headers-align .mat-expansion-panel-header-description {
   flex-basis: 0;
-}
-
-.accordion-headers-align .mat-expansion-panel-header-title {
-  font-weight: bold;
 }
 
 .accordion-headers-align .mat-expansion-panel-header-description {
